@@ -1,0 +1,22 @@
+<?php
+
+include_once('oa_dashboard.features.inc');
+
+function oa_dashboard_menu() {
+  $items = array();
+
+  $items['dashboard'] = array(
+    'title' => 'Dashboard',
+    'description' => 'A user dashboard for Open Accession.',
+    'page callback' => 'oa_dashboard_page',
+    'access arguments' => array('access content'),
+  );
+
+  return $items;
+}
+
+function oa_dashboard_page() {
+  $output = '';
+
+  return $output;
+}
