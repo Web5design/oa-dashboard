@@ -10,6 +10,8 @@ function oa_dashboard_menu() {
     'description' => 'A user dashboard for Open Accession.',
     'page callback' => 'oa_dashboard_page',
     'access arguments' => array('access content'),
+    'menu_name' => 'features',
+    'weight' => -50,
   );
 
   return $items;
