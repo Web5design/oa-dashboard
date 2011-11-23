@@ -5,6 +5,7 @@
  */
 function oa_dashboard_context_default_contexts() {
   $export = array();
+
   $context = new stdClass;
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
@@ -65,7 +66,7 @@ function oa_dashboard_context_default_contexts() {
   // Included for use with string extractors like potx.
   t('A dashboard for Open Accession dashboard');
   t('dashboard');
-
   $export['oa_dashboard'] = $context;
+
   return $export;
 }
