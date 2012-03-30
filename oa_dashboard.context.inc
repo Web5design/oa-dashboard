@@ -39,23 +39,11 @@ function oa_dashboard_context_default_contexts() {
           'region' => 'right',
           'weight' => 1,
         ),
-        'views-acquisitions-block_1' => array(
+        'views-oa_tracker-block_1' => array(
           'module' => 'views',
-          'delta' => 'acquisitions-block_1',
+          'delta' => 'oa_tracker-block_1',
           'region' => 'content_top',
           'weight' => 0,
-        ),
-        'views-loans-block_1' => array(
-          'module' => 'views',
-          'delta' => 'loans-block_1',
-          'region' => 'content_top',
-          'weight' => 1,
-        ),
-        'views-communications-block_1' => array(
-          'module' => 'views',
-          'delta' => 'communications-block_1',
-          'region' => 'content_top',
-          'weight' => 2,
         ),
       ),
     ),
